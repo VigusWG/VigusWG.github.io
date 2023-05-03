@@ -7,13 +7,29 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <meta name="description" content="Vigus' Website" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link rel="icon" href="favicon.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=ABeeZee">
+
+    <script>
+        function copyToKey(){
+            navigator.clipboard.writeText("vwiddicombegasson@gmail.com");
+            document.getElementById("email").textContent = "Email Copied!";
+        }
+    </script>
 </head>
 
 <body>
     <h1>Vigus Widdicombe Gasson</h1>
     <h2>Computer Science Enjoyer</h2>
     <h3>(And Web Development Hater)</h3>
+    <div class="bottombuttonbiv">
+        <form>
+            <button id="email"  formaction="mailto:vwiddicombegasson@gmail.com"  onclick="copyToKey()">Email Me</button>
+        </form>
+        &nbsp;
+        <form>
+            <button formaction="https://discord.com/channels/@me/373089590828859398">DM me on Discord</button>
+        </form>
+    </div>
 </body>
 
 </html>

@@ -1,5 +1,6 @@
 body {
-  background-color: #1d1c00
+  background-color: #1d1c00;
+  font-family: "ABeeZee", sans-serif;
 }
 
 h1 {
@@ -13,10 +14,10 @@ h2 {
     color: #34fcf4;
     padding-top: 1%;
     padding-left: 15%;
-    font-size: 62px;
+    font-size: 52px;
 }
 
-h3{
+h3 {
     color: #F434FC;
     text-align: right;
     bottom: 0%;
@@ -25,4 +26,37 @@ h3{
     padding-right: 30px;
     padding-bottom: 20px;
     font-size: 20px;
+}
+
+
+
+button {
+  border-radius: 8px;
+  background: #000000;
+  color:#34fcf4;
+  display: inline;
+  outline: 0;
+  border: 0;
+  height: 100%;
+  cursor: pointer;
+  font-weight: 700;
+  line-height: 1;
+  padding: 15px;
+  transition: transform 200ms, background 200ms;
+}
+
+button:hover{
+  transform: translateY(-8px);
+}
+
+
+.bottombuttonbiv {
+  vertical-align: middle;
+  text-align: center;
+  font-size: large;
+  width: 12%;
+  height: 12%;
+  min-width: 100px;
+  bottom: calc(0% + 20px);
+  position: fixed;
 }
