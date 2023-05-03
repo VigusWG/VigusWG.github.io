@@ -1,0 +1,28 @@
+body {
+  background-color: #1d1c00
+}
+
+h1 {
+  color: #FCF43F;
+  padding-top: 10%;
+  padding-left: 10%;
+  font-size: 72px;
+}
+
+h2 {
+    color: #34fcf4;
+    padding-top: 1%;
+    padding-left: 15%;
+    font-size: 62px;
+}
+
+h3{
+    color: #F434FC;
+    text-align: right;
+    bottom: 0%;
+    right: 0%;
+    position: fixed;
+    padding-right: 30px;
+    padding-bottom: 20px;
+    font-size: 20px;
+}
