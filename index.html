@@ -17,9 +17,14 @@
             window.location.href = loc.replace('http://','https://');
         }
 
-        function copyToKey(){
+        function copyEmail(){
             navigator.clipboard.writeText("vwiddicombegasson@gmail.com");
             document.getElementById("email").textContent = "Email Copied!";
+        }
+        
+        function copyDiscord(){
+            navigator.clipboard.writeText("v45");
+            document.getElementById("discord").textContent = "Discord Username Copied!";
         }
     </script>
 </head>
@@ -30,11 +35,11 @@
     <h3>(And Web Development Hater)</h3>
     <div class="bottombuttonbiv">
         <form>
-            <button id="email"  formaction="mailto:vwiddicombegasson@gmail.com"  onclick="copyToKey()">Email Me</button>
+            <button id="email" onclick="copyEmail()">Email Me</button>
         </form>
         &nbsp;
         <form>
-            <button formaction="https://discord.com/channels/@me/373089590828859398">DM me on Discord</button>
+            <button id="discord" onclick="copyDiscord()">DM me on Discord</button>
         </form>
     </div>
 </body>
