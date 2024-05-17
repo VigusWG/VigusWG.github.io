@@ -20,11 +20,13 @@
         function copyEmail(){
             navigator.clipboard.writeText("vwiddicombegasson@gmail.com");
             document.getElementById("email").textContent = "Email Copied!";
+            document.getElementById("discord").textContent = "DM me on Discord";
         }
         
         function copyDiscord(){
             navigator.clipboard.writeText("v45");
             document.getElementById("discord").textContent = "Discord Username Copied!";
+            document.getElementById("email").textContent = "Email Me";
         }
     </script>
 </head>
@@ -34,9 +36,13 @@
     <h2>Computer Science Enjoyer</h2>
     <h3>(And Web Development Hater)</h3>
     <div class="bottombuttonbiv">
-            <button id="email" onclick="copyEmail()">Email Me</button>
+        <form>
+            <button id="email" onclick="copyEmail()" type="button">Email Me</button>
+        </form>
         &nbsp;
-            <button id="discord" onclick="copyDiscord()">DM me on Discord</button>
+        <form>
+            <button id="discord" type="button" onclick="copyDiscord()">DM me on Discord</button>
+        </form>
     </div>
 </body>
 
