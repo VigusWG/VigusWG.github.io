@@ -57,6 +57,6 @@ button:hover{
   width: 12%;
   height: 12%;
   min-width: 100px;
-  bottom: calc(0% + 20px);
+  bottom: calc(0% + 35px);
   position: fixed;
 }
